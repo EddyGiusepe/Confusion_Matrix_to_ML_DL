@@ -66,7 +66,9 @@ No gráfico, temos:
 
 {:.center}
 ![image](https://user-images.githubusercontent.com/69597971/153305710-9f2c5a3e-7f11-4123-a8a5-fdef4d7b8ae5.png)
-
+.center {
+  text-align: center;
+}
 
 
 
