@@ -64,11 +64,11 @@ No gráfico, temos:
 
 **Por exemplo:** Suponha que tivéssemos um conjunto de dados de classificação com ``1000 pontos de dados``. Colocamos um classificador nele e obtemos a matriz de confusão abaixo:
 
-{:.center}
-![image](https://user-images.githubusercontent.com/69597971/153305710-9f2c5a3e-7f11-4123-a8a5-fdef4d7b8ae5.png)
-.center {
-  text-align: center;
-}
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153305710-9f2c5a3e-7f11-4123-a8a5-fdef4d7b8ae5.png" />
+</p>
+
+
 
 
 
