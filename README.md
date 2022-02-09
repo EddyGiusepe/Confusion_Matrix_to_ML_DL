@@ -7,6 +7,9 @@ A seguinte imagem está baseada [neste link](https://yassineelkhal.medium.com/co
 ![image](https://user-images.githubusercontent.com/69597971/153124088-04567069-88cc-49f2-b48c-6858d5830455.png)
 
 
+Você já esteve em uma situação em que esperava que seu modelo de aprendizado de máquina tivesse um desempenho muito bom, ``mas teve uma precisão ruim?`` Você fez todo o trabalho duro - então, ``onde o modelo de classificação deu errado?`` ``Como você pode corrigir isso?``
+
+Existem muitas maneiras de avaliar o desempenho do seu modelo de classificação, mas nenhuma resistiu ao teste do tempo como a matriz de confusão. Ele nos ajuda a avaliar o desempenho do nosso modelo, onde ele deu errado e nos oferece orientação para corrigir nosso caminho.
 
 
 
