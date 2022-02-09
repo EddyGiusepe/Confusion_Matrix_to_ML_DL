@@ -68,8 +68,37 @@ No gráfico, temos:
 <img src="https://user-images.githubusercontent.com/69597971/153305710-9f2c5a3e-7f11-4123-a8a5-fdef4d7b8ae5.png" />
 </p>
 
+Os diferentes valores da matriz Confusion seriam os seguintes:
+
+* **Verdadeiro Positivo (TP) = 560**; o que significa que 560 pontos de dados de classe positivos foram classificados corretamente pelo modelo
+* **Verdadeiro Negativo (TN) = 330**; significando que 330 pontos de dados de classe negativa foram classificados corretamente pelo modelo
+* **Falso Positivo (FP) = 60**; o que significa que 60 pontos de dados de classe negativa foram classificados incorretamente como pertencentes à classe positiva pelo modelo
+* **Falso Negativo (FN) = 50**; significando que 50 pontos de dados de classe positiva foram incorretamente classificados como pertencentes à classe negativa pelo modelo
 
 
+Isso acabou sendo um classificador bastante decente para nosso conjunto de dados, considerando o número relativamente maior de valores verdadeiros positivos e verdadeiros negativos.
+
+
+## Por que precisamos de uma Matriz de Confusão?
+
+**Por exemplo:** 
+Vamos pensar em um problema de classificação hipotética. Digamos que você queira prever quantas pessoas estão infectadas com um vírus contagioso antes de apresentarem os sintomas e isolá-las da população saudável. Os dois valores para nossa variável de destino seriam: ``Sick`` e ``Not Sick``.
+
+Agora, você deve estar se perguntando – por que precisamos de uma ``matriz de confusão`` quando temos nosso amigo para todos os tempos – ``Precisão?`` Bem, vamos ver onde a **precisão falha**. 
+
+Nosso conjunto de dados é um exemplo de um conjunto de [dados desbalanceado](https://www.analyticsvidhya.com/blog/2017/03/imbalanced-data-classification/?utm_source=blog&utm_medium=confusion-matrix-machine-learning) . Existem ``947`` pontos de dados para a classe negativa e ``3`` pontos de dados para a classe positiva. 
+Lembrando que a precisão, se calcula assim:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153308515-cc8840d0-8963-47f5-8436-bd70af6057c5.png" />
+</p>
+
+Nosso modelo se comportou assim:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153308714-62977af9-8ede-4220-b6d1-855926213c24.png" />
+</p>
+Os valores totais do resultado são: ``TP = 30``, ``TN = 930``, ``FP = 30``, ``FN = 10``
 
 
 
