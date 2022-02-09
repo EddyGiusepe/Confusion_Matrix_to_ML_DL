@@ -62,56 +62,11 @@ No gráfico, temos:
   * O valor real foi positivo, mas o modelo previu um valor negativo
   * Também conhecido como ``erro tipo 2``
 
+**Por exemplo:** Suponha que tivéssemos um conjunto de dados de classificação com ``1000 pontos de dados``. Colocamos um classificador nele e obtemos a matriz de confusão abaixo:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''
+![image](https://user-images.githubusercontent.com/69597971/153305710-9f2c5a3e-7f11-4123-a8a5-fdef4d7b8ae5.png)
+'''
 
 
 
@@ -144,13 +99,4 @@ Links de estudo:
 
 
 Thanks God!
-
-
-
-
-
-
-
-
-
 
