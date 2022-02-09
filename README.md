@@ -98,7 +98,7 @@ Nosso modelo se comportou assim:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/69597971/153308714-62977af9-8ede-4220-b6d1-855926213c24.png" />
 </p>
-Os valores totais do resultado são: ``TP = 30``, ``TN = 930``, ``FP = 30``, ``FN = 10``
+Os valores totais do resultado são: ``TP=30`` ``TP = 30``, ``TN = 930``, ``FP = 30``, ``FN = 10``
 
 
 
