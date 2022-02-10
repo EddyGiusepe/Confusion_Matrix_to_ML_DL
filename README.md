@@ -108,12 +108,27 @@ Então, a precisão do nosso modelo acaba sendo:
 
 96% de PRECISÃO, nada mal. Mas **CUIDADO:** está dando a ideia errada sobre o resultado.
 
-Nosso modelo está dizendo ``“Posso prever pessoas doentes 96% das vezes”``. No entanto, está fazendo o contrário. Está prevendo as pessoas que não ficarão doentes com 96% de precisão enquanto os doentes estão espalhando o vírus!
+Nosso modelo está dizendo ``“Posso prever pessoas doentes 96% das vezes”``. ``No entanto, está fazendo o contrário``. Está prevendo as pessoas que não ficarão doentes com 96% de precisão enquanto os doentes estão espalhando o vírus!
+
+Você acha que essa é uma métrica correta para o nosso modelo, dada a gravidade do problema? Não deveríamos estar medindo quantos casos positivos podemos prever corretamente para impedir a propagação do vírus contagioso? Ou talvez, dos casos corretamente previstos, quantos são casos positivos para verificar a confiabilidade do nosso modelo?
+
+É aqui que nos deparamos com o conceito duplo de ``Precisão`` e ``Recall``.
 
 
+## Precisão vs. Recall
 
+* A ``precisão`` nos diz quantos dos casos corretamente previstos foram realmente positivos. A precisão se determina, assim:
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153317507-fe46389e-6556-4c48-8efe-61f89b866c85.png" />
+</p>
+Isso determinaria se nosso modelo é confiável ou não.
 
+* ``Recall`` nos diz quantos dos casos positivos reais fomos capazes de prever corretamente com nosso modelo. O recall se calcula, assim:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153318334-8c716741-f63f-4537-b535-fd4c76f0b5e1.png" />
+</p>
 
 
 
