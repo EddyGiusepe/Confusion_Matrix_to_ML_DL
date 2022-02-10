@@ -150,27 +150,25 @@ Podemos calcular facilmente ``Precision`` e ``Recall`` para nosso modelo inserin
 ``A precisão é uma métrica útil nos casos em que os falsos positivos são uma preocupação maior do que os falsos negativos.``
 
 
+**A precisão é importante em sistemas de recomendação de música ou vídeo, sites de comércio eletrônico, etc. Resultados errados podem levar à perda de clientes e prejudicar o negócio.**
 
 
+``O recall é importante em casos médicos em que não importa se disparamos um alarme falso, mas os casos positivos reais não devem passar despercebidos!``
 
+**Em nosso exemplo**, ``Recall`` seria uma métrica melhor porque não queremos dar alta acidentalmente a uma pessoa infectada e deixá-la se misturar com a população saudável, espalhando o vírus contagioso. ``Agora você pode entender por que a precisão foi uma métrica ruim para nosso modelo.``
 
+Mas haverá casos em que não há uma distinção clara entre se a Precisão é mais importante ou o Recall. O que devemos fazer nesses casos? ``Nós os combinamos!``
 
+## F1-Score
+Na prática, quando tentamos aumentar a precisão do nosso modelo, o recall diminui e vice-versa. A ``F1-score`` captura ambas as tendências em um único valor:
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153323255-ed022554-c91d-4a4f-876c-37751d11645a.png" />
+</p>
 
+``F1-score é uma média harmônica de Precision e Recall e, portanto, fornece uma ideia combinada sobre essas duas métricas. É máximo quando Precision é igual a Recall.``
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+``Mas há um problema aqui.`` A interpretabilidade do ``F1-score`` é ruim. Isso significa que não sabemos o que nosso classificador está maximizando – precisão ou recall? Então, nós o usamos em combinação com outras métricas de avaliação, o que nos dá uma visão completa do resultado.
 
 
 
