@@ -144,9 +144,10 @@ Podemos calcular facilmente ``Precision`` e ``Recall`` para nosso modelo inserin
 <img src="https://user-images.githubusercontent.com/69597971/153321495-0c17eda0-5fbb-4139-b602-26d39677736d.png" />
 </p>
 
+``50% dos casos previstos corretamente acabaram sendo casos positivos. Considerando que 75% dos positivos foram previstos com sucesso pelo nosso modelo.`` Massa demais!
 
 
-
+``A precisão é uma métrica útil nos casos em que os falsos positivos são uma preocupação maior do que os falsos negativos.``
 
 
 
