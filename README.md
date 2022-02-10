@@ -106,6 +106,10 @@ Então, a precisão do nosso modelo acaba sendo:
 <img src="https://user-images.githubusercontent.com/69597971/153309271-dbfbf170-b2e1-4682-b787-432afd772653.png" />
 </p>
 
+96% de PRECISÃO, nada mal. Mas **CUIDADO:** está dando a ideia errada sobre o resultado.
+
+Nosso modelo está dizendo ``“Posso prever pessoas doentes 96% das vezes”``. No entanto, está fazendo o contrário. Está prevendo as pessoas que não ficarão doentes com 96% de precisão enquanto os doentes estão espalhando o vírus!
+
 
 
 
