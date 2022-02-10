@@ -124,11 +124,56 @@ Você acha que essa é uma métrica correta para o nosso modelo, dada a gravidad
 </p>
 Isso determinaria se nosso modelo é confiável ou não.
 
+
 * ``Recall`` nos diz quantos dos casos positivos reais fomos capazes de prever corretamente com nosso modelo. O recall se calcula, assim:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/69597971/153318334-8c716741-f63f-4537-b535-fd4c76f0b5e1.png" />
 </p>
+
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153319962-766ba603-a7d3-4606-8419-3095517741f5.png" />
+</p>
+
+
+Podemos calcular facilmente ``Precision`` e ``Recall`` para nosso modelo inserindo os valores nas fórmulas acima:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/69597971/153321495-0c17eda0-5fbb-4139-b602-26d39677736d.png" />
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
