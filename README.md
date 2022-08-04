@@ -195,6 +195,7 @@ Links de estudo:
 
 * [Confusion matrix, AUC and ROC curve and Gini clearly explained](https://yassineelkhal.medium.com/confusion-matrix-auc-and-roc-curve-and-gini-clearly-explained-221788618eb2)
 
+* [ROC - AUC](https://medium.com/bio-data-blog/entenda-o-que-%C3%A9-auc-e-roc-nos-modelos-de-machine-learning-8191fb4df772#:~:text=A%20curva%20ROC%20mostra%20o,distinguir%20com%20precis%C3%A3o%20o%20bin%C3%B4mio.)
 
 
 Thanks God!
